@@ -3,7 +3,7 @@ const sqlite3 = require('sqlite3')
 
 var app = express()
 
-const PORT = 8080
+const PORT = 80
 app.listen(PORT, () => {
   console.log('server run on port ' + PORT)
 })
